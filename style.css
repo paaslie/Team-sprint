@@ -1,14 +1,26 @@
 h1 {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     text-align: center;
+    color: rgb(40, 79, 116); 
+}
+
+#date {
+    margin-top: -10px;
+    font-size: small;
 }
 
 body {
     margin-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blue;
+    background-color: rgb(240, 239, 241);
+}
+
+main {
+    margin: 30px;
 }
 
 footer {
-    margin-top: 480px;
+    color: rgb(128, 127, 127);
+    text-align: center;
 }
