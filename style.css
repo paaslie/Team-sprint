@@ -40,3 +40,8 @@ table, th, td{
     border: 1px solid;
     border-collapse: collapse;
 }
+
+#filstruktur { 
+    width: 50%;
+    align-content: center;
+}
