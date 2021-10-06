@@ -1,8 +1,16 @@
+main {
+    margin: 30px;
+}
+
 h1 {
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     color: rgb(40, 79, 116); 
+}
+
+p {
+    line-height: 1.5;
 }
 
 #date {
@@ -18,13 +26,21 @@ body {
     padding: 5%;
 }
 
-li {
-    padding: 8px;
+img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
 }
 
-main {
-    margin: 30px;
+ol li {
+    padding: 8px;
+    line-height: 1.5;
 }
+
+ul li {
+    padding: 4px;
+}
+
 
 footer {
     color: rgb(128, 127, 127);
@@ -45,4 +61,10 @@ table, th, td{
 #filstruktur { 
     width: 50%;
     align-content: center;
+}
+
+.bildetekst {
+    margin: 0;
+    text-align: center;
+    color: rgb(40, 79, 116); 
 }
