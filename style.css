@@ -18,6 +18,10 @@ body {
     padding: 5%;
 }
 
+li {
+    padding: 8px;
+}
+
 main {
     margin: 30px;
 }
