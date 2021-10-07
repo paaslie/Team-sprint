@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>P2 Project Design</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> </link>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 <body>
     <header>
@@ -58,11 +58,13 @@
             <ul>
                 <li>Fonter: "Eras Demi ITC", slik som Team Sprints logo, for de større overskriftene i nettstedet (32 pt), og "Arial" for alt av tekst i body (16 pt) og footer (14 pt). "Roboto" skal brukes i navigasjons-baren og i menyene (18 pt).</li>
                 <li>Fargeskjema:
+                    <ul>
                     <li>Tekst: Blå (#033EA7) på større overskrifter, hvit (#FFFFFF) i nav-bar og i footer, og mørk brun (#414141) på alt av tekst i body, dropdown-meny og vertikal tab-meny.</li>
                     <li>Banner og footer: Blå (#033EA7)</li>
                     <li>Bakgrunn: Hvit (#FFFFFF)</li>
                     <li>Dropdown-meny og vertikal tab-meny: Hvit (#FFFFFF) bakgrunn, som skifter til lys grå (#E6E6E6) når man holder musen over en bestemt tab.</li>
                     <li>Skygger: Navigasjons-baren og dropdown-menyen skal ha en drop skygge på nederste linje (bottom).</li>
+                    </ul>
                 </li>
                 <li>Bakgrunnsbilder: På sidene "Om oss", "Treningsprogram", "Øvelser" og "Sprintteknikk" skal den hvite bakgrunnen byttes ut med tre henholdsvis ulike bilder av skøyter. Disse bildene skal ha 18% ugjennomsiktighet (opacity), slik at de ikke stjeler for mye fokus fra innholdet på sidene.</li>
                 <li>Linker: Team Sprint-logoen i banneret vil være en klikkbar link som tar brukeren tilbake til hjem-siden. Navigasjons-baren, inkludert dropdown-menyen, inneholder linker til de respektive sidene i nettstedet. Sponsorlogoene nederst på hver side vil være klikkbare linker til hjemmesidene til de respektive sponsorene (disse åpnes i nye faner). Noen utvalgte øvelser i treningsprogrammene vil være linket til tilhørende videoer i siden "Øvelser", dermed skal "Øvelser" åpnes i en ny fane når brukeren klikker på navnet til den aktuelle øvelsen i treningsprogrammet.</li>
@@ -78,17 +80,20 @@
                 Denne siden vil derfor hovedsaklig inneholde en promovideo av Team Sprint, som skal gi besøkende et inntrykk av hva skøytelaget driver med. Videoen skal være midtstilt og dekke 80% av bredden til skjermen den vises på. Videoen skal spilles av automatisk, men uten lyd, når besøkende kommer inn på siden. <br><br>
                 Under promovideoen kommer en seksjon med overskriften "Sjekk ut vår Instagram" og tre innebygde Instagram-innlegg hentet fra lagets Instagram-bruker. Innleggene skal ha en bredde på 250px, og mellomrommet skal være det samme mellom hvert innlegg. Overskriften skal være justert mot venstre og plassert 10% av skjermens bredde fra venstre kant, i likhet med promovideoen. En horisontal linje skiller overskriften fra Instagram-innleggene under.<br><br>
                 På denne måten vil hjem-siden bidra til å nå målet om å inspirere trenere og utøvere til å ville utforske sprint på skøyter. Ved å holde innholdet til et minimum og spille av en video som utstråler idrettsglede, fart og spenning, vil vi kunne friste besøkende til å sjekke ut de andre sidene som ligger i navigasjons-baren. Instagram-innleggene vil være en fin måte å holde skøyteentusiaster oppdaterte på hva Team Sprint driver med for tiden.<br>
-                <img src= "img/mockups/Startside Topp.png" alt="skissert forslag av siden"/>
+                <img src= "img/mockups/StartsideTopp.png" alt="skissert forslag av siden"/>
                 <p class="bildetekst">Figur 3: Mockup for hjem-siden (øvre del)</p>
-                <img src= "img/mockups/Startside Bunn.png" alt="skissert forslag av siden"/>
+                <img src= "img/mockups/StartsideBunn.png" alt="skissert forslag av siden"/>
                 <p class="bildetekst">Figur 4: Mockup for hjem-siden (nedre del)</p>
             </li>
             <li><b>Om oss - about.html</b><br>
                 Dette vil være siden som introduserer Team Sprint og hver enkelt utøver (og trener). Siden har et festet bakgrunnsbilde med 18% opacity, og alt av innhold ligger oppå og kan scrolles over dette bakgrunnsbildet.<br><br>
                 Siden starter med overskriften "Team Sprint", etterfulgt av en kort introduksjon av laget, deres arbeid og målsettinger. Overskriften og teksten skal være midtstilt på siden, der teksten er justert mot venstre. Det vil også være en horisontal linje under overskriften som skiller teksten og overskriften.<br><br>
                 Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller overskriften og innholdet. Deretter følger et portrettbilde av hver utøver med tilhørende navn under. På første linje vil det være to portretter, og på andre linje vil det være tre portretter. Portrettene skal ha en bredde på 200px og være midtstilt på siden, med passende mellomrom mellom hvert bilde. Navnene skal midtstilles under hvert bilde.<br><br>
+                Når den besøkende klikker på et av portsettbilene eller navnene skal det åpnes et pop-up-vindu med informasjon om utøverene. I vinduet som åpnes vil navnet på utøveren/trener være overskriften, etterfulgt av det samme 
+                portrettbildet, men litt større dimensjon på bildet (bredde:500px). I  tillegg til bildet vil det være en liten tekst om utøveren, med tilhørende SoMe-informasjon. Nederst i pop-up-vinduet ligger 
+                en liste med utøverens personlige rekorder. Dette vil være likt for alle utøverne. Pop-up-vinduet har hvit bagrunn, der resten av siden vil bli mørk med en opacity på 0.7, slik at vinduet står i fokus. <br><br>
                 Denne siden bidrar til å nå målet om å inspirere trenere og yngre skøyteløpere ved at de får bli bedre kjent med utøverne som står bak nettsiden. Å lese litt om Team Sprint-utøvernes bakgrunn kan hjelpe yngre skøyteløpere til å identifisere seg med deres målsettinger og prestasjoner, og dermed virke som en motivasjonsfaktor.<br>
-                <img src= "img/mockups/Om Oss.png" alt="skissert forslag av siden"/>
+                <img src= "img/mockups/OmOss.png" alt="skissert forslag av siden"/>
                 <p class="bildetekst">Figur 5: Mockup for Om oss</p>
                </li>
             <li><b>Treningsprogram - trainingprogram.html</b><br>
@@ -121,7 +126,7 @@
             <li><b>Våre sponsorer - sponsors.html</b><br>
                 "Våre sponsorer" er en side hvor Team Sprint sine sponsorer presenteres med en kort beskrivelse av hver enkelt og forholdet deres til Team Sprint. Denne siden bidrar til målet om å bruke nettsiden som et middel i markedsføringen av sponsorene nås. <br><br>
                 Siden deles inn i to kolonner som hver har en bredde på 450px og er midtstilt i forhold til skjermen. Hver kolonne inneholder presentasjonen av to sponsorer. Logoene til sponsorene brukes som overskrift, og en horisontal linje skiller logoene fra en kort beskrivelse av sponsorene og deres samarbeid med Team Sprint.<br>
-                <img src= "img/mockups/Våre Sponsorer.png" alt="skissert forslag av siden"/>
+                <img src= "img/mockups/VåreSponsorer.png" alt="skissert forslag av siden"/>
                 <p class="bildetekst">Figur 10: Mulig design av "sponsor"-siden</p>
             </li>
         </ol>
@@ -133,16 +138,14 @@
         </ul>
             <p>En responsive navbar vil implementeres i headeren, i en meny. Det vil kalles på når brukeren trykker på 
                 treningsfilosofi. Da vil det, ved hjelp av javascript, poppe opp en dropdown-meny der brukeren vil kunne velge
-                hvilken siden den vil inn på </p>
+                hvilken side den vil inn på </p>
 
         <ul>
             <li>Pop-up bilde m/tekst</li>
         </ul>
-        <p>En javascript som implementeres på about.html. Det skal åpnes et pop-up-vindu med informasjon om utøverene når brukeren klikker 
-            på et portrett eller utøverens navn. I vinduet som åpnes vil navnet på utøveren/trener være overskriften, etterfulgt av det samme 
-            portrettbildet (DIMENSJON) og en liten tekst om utøveren, med tilhørende SoMe-informasjon. Nederst i pop-up-vinduet ligger 
-            en liste med utøverens personlige rekorder. Dette vil være likt for alle utøverne. Øverst i høyre hjørne er et lite kryss, 
-            slik at besøkende kan lukke pop-up-vinduet.</p>
+        <p>En javascript som implementeres på portrettbildene og utøvernavnene i about.html. Når brukeren klikker på bildet skal det 
+            poppe opp et vindu midt på siden med informasjon om utøverene. Hver utøver har sitt eget pop-up-vindu tilhørende sitt 
+            bilde og navn. Øverst i høyre hjørne er et lite kryss, slik at den besøkende kan lukke pop-up-vinduet og gå tilbake til den opprinnelige about.html-siden.</p>
 
         <ul>
             <li>Hide content</li>
@@ -169,26 +172,28 @@
             <li>execises.html</li>
             <li>results.html</li>
             <li>sponsors.html</li>
-            <li>css/</li>
-            <ul>
-                <li>index.html</li>
+            <li>css/
+                <ul>
+                <li>index.css</li>
                 <li>about.css</li>
                 <li>sprinttechnique.css</li>
                 <li>trainingprogram.css</li>
                 <li>exercises.css</li>
                 <li>results.css</li>
                 <li>sponsors.css</li>
-            </ul>
-            <li>js/</li>
-            <ul>
+                </ul>
+            </li>
+            <li>js/
+                <ul>
                 <li>pictures.js</li>
                 <li>header.js</li>
                 <li>footer.js</li>
                 <li>navbar.js</li>
                 <li>hidecontent.js</li>
-            </ul>
-            <li>img/</li>
-            <ul>
+                </ul>
+            </li>
+            <li>img/
+                <ul>
                 <li>portrait1</li>
                 <li>portrait2</li>
                 <li>portrait...</li>
@@ -196,7 +201,8 @@
                 <li>background_img2</li>
                 <li>background_img...</li>
                 <li>video1...</li>
-            </ul>
+                </ul>
+            </li>
         </ul>
 
         <h3>Arbeidsfordeling og frister</h3>
