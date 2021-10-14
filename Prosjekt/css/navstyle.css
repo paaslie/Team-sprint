@@ -1,0 +1,30 @@
+#navbar {
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    background-color: #033EA7;
+    width: 100%;
+    
+}   
+
+a {
+    color: white;
+    padding-left: 3%;
+    margin: 8px;
+    padding-top: 12px;
+    text-decoration: none;
+    padding-right: 3%;
+    border-left: 1px solid white;
+}
+
+#logo {
+    padding-top: 0; 
+    padding-right: 18%;
+    border-left: 0;
+
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
