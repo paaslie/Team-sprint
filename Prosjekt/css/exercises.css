@@ -1,0 +1,56 @@
+
+/* Hele siden */
+
+
+
+#container { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 2px;
+    width: 100%;
+    min-height: 99vh;
+}
+
+
+
+/* Sidemenyen og dens knapper */
+#sidebar { 
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.knapp { 
+    padding: 30px;
+    margin-top: 10px;
+}
+.knapp:hover { 
+    background-color: lightgray;
+} 
+
+
+
+/* Her starter css til selve innholdet og "wrapperen" til innholdet */
+
+#øvelsercontainer { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+}
+
+.øvelsercontent { 
+    display: flex;
+    flex-direction: row;
+}
+
+/* Her er hver og en av de fire content-boksene */
+.topprykk { 
+    background-color: lightcoral;
+    margin: auto;
+    width: 40%;
+}
