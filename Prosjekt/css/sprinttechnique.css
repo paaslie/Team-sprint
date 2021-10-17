@@ -1,11 +1,12 @@
 body {
-    /*background-image: url("../img/CFR_9139.jpg");*/
+    background-image: url("../img/sprintteknikkBakgrunn.png");
     background-size: cover;
-    position: relative;
+    background-position: center;
+    color: #414141;
 }
 
 
-.flex-container {
+.main-flex-container {
     display: flex;
     justify-content: center;
     margin: 5% 9% 5% 9%;
