@@ -58,6 +58,16 @@
     padding-top: 30px;
     text-align: center;
 }
+.øvelsercontent:nth-child(1) { 
+    display: none;
+}
+.øvelsercontent:nth-child(3) { 
+    display: none;
+}
+.øvelsercontent:nth-child(4) { 
+    display: none;
+}
+
 
 /* Her er hver og en av de fire content-boksene */
 .topprykk { 
@@ -69,19 +79,16 @@
     background-color: none;
     margin: auto;
     width: 40%;
-    display: none;
 }
 .spesifikk { 
     background-color: none;
     margin: auto;
     width: 40%;
-    display: none;
 }
 .lavarbeid { 
     background-color: none;
     margin: auto;
     width: 40%;
-    display: none;
 }
 
 /* Øvelser videoer */
