@@ -52,6 +52,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    background-color: aqua;
 }
 
 /* Her er hver og en av de fire content-boksene */
@@ -59,4 +60,22 @@
     background-color: none;
     margin: auto;
     width: 40%;
+}
+.koordinasjon { 
+    background-color: none;
+    margin: auto;
+    width: 40%;
+    display: none;
+}
+.spesifikk { 
+    background-color: none;
+    margin: auto;
+    width: 40%;
+    display: none;
+}
+.lavarbeid { 
+    background-color: none;
+    margin: auto;
+    width: 40%;
+    display: none;
 }
