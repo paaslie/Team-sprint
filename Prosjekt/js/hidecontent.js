@@ -91,11 +91,16 @@
 // }
 
 
-
+var knapp;
 
 var content;
 
 function showkoordinasjon() { 
+    knapp = document.querySelectorAll(".knapp")
+    knapp[0].style.backgroundColor = "lightgrey"
+    knapp[1].style.backgroundColor = "white"
+    knapp[2].style.backgroundColor = "white"
+    knapp[3].style.backgroundColor = "white"
     content = document.querySelectorAll(".øvelsercontent")
     content[0].style.display = "flex"
     content[0].style.flexDirection = "flex"
@@ -104,6 +109,11 @@ function showkoordinasjon() {
     content[3].style.display = "none"
 }
 function showtopprykk() { 
+    knapp = document.querySelectorAll(".knapp")
+    knapp[0].style.backgroundColor = "white"
+    knapp[1].style.backgroundColor = "lightgrey"
+    knapp[2].style.backgroundColor = "white"
+    knapp[3].style.backgroundColor = "white"
     content = document.querySelectorAll(".øvelsercontent")
     content[1].style.display = "flex"
     content[1].style.flexDirection = "flex"
@@ -112,6 +122,11 @@ function showtopprykk() {
     content[3].style.display = "none"
 }
 function showspesifikk() { 
+    knapp = document.querySelectorAll(".knapp")
+    knapp[0].style.backgroundColor = "white"
+    knapp[1].style.backgroundColor = "white"
+    knapp[2].style.backgroundColor = "lightgrey"
+    knapp[3].style.backgroundColor = "white"
     content = document.querySelectorAll(".øvelsercontent")
     content[2].style.display = "flex"
     content[2].style.flexDirection = "flex"
@@ -120,6 +135,11 @@ function showspesifikk() {
     content[3].style.display = "none"
 }
 function showlavarbeid() { 
+    knapp = document.querySelectorAll(".knapp")
+    knapp[0].style.backgroundColor = "white"
+    knapp[1].style.backgroundColor = "white"
+    knapp[2].style.backgroundColor = "white"
+    knapp[3].style.backgroundColor = "lightgrey"
     content = document.querySelectorAll(".øvelsercontent")
     content[3].style.display = "flex"
     content[3].style.flexDirection = "flex"

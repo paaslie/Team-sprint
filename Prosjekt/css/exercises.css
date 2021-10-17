@@ -30,8 +30,11 @@
     padding: 30px;
     margin-top: 10px;
 }
-.knapp:hover { 
+.knapp:nth-child(2) { 
     background-color: lightgray;
+}
+.knapp:hover { 
+    background-color: lightgray !important;
 } 
 
 
@@ -58,6 +61,8 @@
     padding-top: 30px;
     text-align: center;
 }
+
+/* Hider alle som ikke skal vises når man kommer inn på siden */
 .øvelsercontent:nth-child(1) { 
     display: none;
 }
