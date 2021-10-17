@@ -4,6 +4,8 @@
 
 
 #container { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
     display: flex;
     flex-direction: row;
     margin-top: 8px;
@@ -47,12 +49,14 @@
 }
 
 
-
+/* Wrapper for all content */
 .øvelsercontent { 
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: aqua;
+    background-color: none;
+    padding-top: 30px;
+    text-align: center;
 }
 
 /* Her er hver og en av de fire content-boksene */
@@ -78,4 +82,10 @@
     margin: auto;
     width: 40%;
     display: none;
+}
+
+/* Øvelser videoer */
+
+.øvelsevideo { 
+    width: 60%;
 }
