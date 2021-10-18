@@ -1,3 +1,4 @@
+/*------HEADER STYLING-------------------------------------------------*/
 .navbar {
     list-style-type: none;
     background-color: #033EA7;
@@ -7,12 +8,12 @@
 
 }
 
-li {
+.navbar li {
     float: left;
     margin: 8px;
 }
 
-li a {
+.navbar li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -29,13 +30,22 @@ li a {
     background-color: #033EA7;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #00225E;
 }
 
 li.dropdown {
     display: inline-block;
 }
+
+/*
+    <ul class=Navbar>
+        <li>
+            <li class=dropdown>
+                <div class=dropwdownContent>
+                    <a>
+                    
+*/
 
 .dropdownContent {
     display: none;
@@ -44,7 +54,7 @@ li.dropdown {
     box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.3);
 }
 
-.dropdownContent a {
+.navbar .dropdownContent a {
     color:#414141;
     padding: 14px 50px;
     display: block;
@@ -52,7 +62,7 @@ li.dropdown {
 
 }
 
-.dropdownContent a:hover {
+.navbar .dropdownContent a:hover {
     background-color: #E6E6E6;
 }
 
@@ -63,4 +73,22 @@ li.dropdown {
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto-Regular.ttf');
+}
+/*------FOOTER STYLING-------------------------------------------------*/
+
+.footer-flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #033EA7;
+    color: white;
+    margin: -8px;
+}
+
+.footer-item {
+    margin: 2% 6%;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: white;
 }
