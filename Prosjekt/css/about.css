@@ -46,7 +46,16 @@ p {
     display: flex;
     width: 80%;
     margin: auto;
+    justify-content: center;
+    gap: 18%;
+
 }
+
+#flex1 {
+    justify-content: center;
+    gap: 15%;
+}
+
 #trainer, #athlete1 {
     padding-left: 15%;
 }
@@ -84,6 +93,8 @@ p {
     text-align: center;
     padding: 30%;
     position: relative;
+    margin: auto;
+    margin-top: 10%;
 }
 
 #close {
@@ -95,6 +106,16 @@ p {
     cursor: pointer;
 }
 
-#text_trainer #text_athlete1 #text_athlete2 #text_athlete3 #text_athlete4 {
-    display: none;
+
+
+/* Styling header pop-up
+.popHeader {
+
 }
+*/
+
+/* Styling text pop-up
+.popText {
+
+}
+*/

@@ -32,9 +32,11 @@
     <img id="team" src="img/CFR_4854.jpg" alt= "Bilde av Team Sprint">
     <h1>Vårt team </h1>
     <hr>
-    <div class="flex-container">
-        <a href="about.html#button" class="button" id="button">
+    <div class="flex-container" id=flex1>
+        <a href="#" class="button" id="button">
             <img id="trainer" src="img/portrett_arne.jpg" alt="Portrett av Arne Skuterud" width="200px">
+        </a>
+        <a href="about.html#button" class="button">
             <img id="athlete1" src="img/portrett_carina.jpg" alt="Portrett av Carina Jagtøyen" width="200px">
         </a>
     
@@ -44,9 +46,9 @@
         <p id="name_athlete1"> Carina Jagtøyen </p>
     </div>
     <div class="flex-container">
-    <img id="athlete2" src="img/portrett_erik.jpg" alt="Portrett av Carina Jagtøyen" width="200px">
-    <img id="athlete3" src="img/portrett_magnus.jpg" alt="Portrett av Carina Jagtøyen" width="200px">
-    <img id="athlete4" src="img/portrett_simen.jpg" alt="Portrett av Carina Jagtøyen" width="200px">
+    <a href="about.html#button" class="button"> <img id="athlete2" src="img/portrett_erik.jpg" alt="Portrett av Carina Jagtøyen" width="200px"></a>
+    <a href="about.html#button" class="button"> <img id="athlete3" src="img/portrett_magnus.jpg" alt="Portrett av Carina Jagtøyen" width="200px"> </a>
+    <a href="about.html#button" class="button"> <img id="athlete4" src="img/portrett_simen.jpg" alt="Portrett av Carina Jagtøyen" width="200px"> </a>
     </div>
     <div class="flex-container">
         <p id="name_athlete2"> Erik Resell</p>
@@ -59,32 +61,32 @@
         <div class="pop-content">
             <div id="close"> +  </div>
             <!-- Text about trainer-->
-            <div id="trainer_text"></div>
-                <h1 id="athlete_name"> Arne Skuterud</h1>
-                <p id="athlete-text"> </p>
+            <div id="trainer_text" style="display: none;">
+                <h1 class="popHeader" id="trainer_name"> Arne Skuterud</h1>
+                <p class="popText" id="trainer-text"> Hei </p>
             </div>
             <!-- Text about athlete 1-->
-            <div id="athlete1_text"></div>
-                <h1 id="athlete_name"> Carina Jagtøyen </h1>
-                <p id="athlete-text"> </p>
+            <div id="athlete1_text" style="display: none;">
+                <h1 class="popHeader" id="athlete1_name"> Carina Jagtøyen </h1>
+                <p class="popText" id="athlete1-text"> </p>
             </div>
             <!-- Text about athlete 2-->
-            <div id="athlete2_text"></div>
-                <h1 id="athlete_name"> Erik Resell</h1>
-                <p id="athlete-text"> </p>
+            <div id="athlete2_text" style="display: none;">
+                <h1 class="popHeader" id="athlete2_name"> Erik Resell</h1>
+                <p class="popText" id="athlete2-text"> </p>
             </div>
             <!-- Text about athlete 3-->
-            <div id="athlete3_text"></div>
-                <h1 id="athlete_name"> Magnus Dahle </h1>
-                <p id="athlete-text"> </p>
+            <div id="athlete3_text" style="display: none;">
+                <h1 class="popHeader" id="athlete3_name"> Magnus Dahle </h1>
+                <p class="popText" id="athlete3-text"> hei</p>
             </div>
             <!-- Text about athlete 4-->
-            <div id="athlete4_text"></div>
-                <h1 id="athlete_name"> Simen Kroken</h1>
-                <p id="athlete-text"> </p>
+            <div id="athlete4_text" style="display: none;">
+                <h1 class="popHeader" id="athlete4_name"> Simen Kroken</h1>
+                <p class="popText" id="athlete4-text"> </p>
             </div>
         </div>
-    </div>
+    </div> 
 
     <script src="js/pictures.js"></script>
     </body>

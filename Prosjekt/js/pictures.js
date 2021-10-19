@@ -17,47 +17,49 @@ function hidden() {
 let close = document.getElementById('close');
 close.addEventListener('click', (event) => {
     hidden()
+    
 })
 
-//function to get the id for the athlete
-function athleteId(athleteNr) {
-    let athlete = document.getElementById('athleteNr');
-}
-
-//function to get the text about the athlete
-function athleteText(athlete_text) {
-    let athlete = document.getElementsByName('athlete_text');
-    athlete.style.display = "flex";
-}
-
-// Virker ikke enda!! fiks
 
 // calling trainer
-athleteId(trainer).addEventListener('click', (event) => {
+let callTrainer = document.getElementById('trainer');
+let callTrainerText = document.getElementById('trainer_text');
+callTrainer.addEventListener('click', (event) => {
     visible();
-    athleteText(trainer_text);
+    callTrainerText.style.display = "flex";
 })
 
+
+
 //calling athlete 1
-athleteId(athlete1).addEventListener('click', (event) => {
+let callAthlete1 = document.getElementById('athlete1');
+let callAthlete1Text = document.getElementById('athlete1_text');
+callAthlete1.addEventListener('click', (event) => {
     visible();
-    athleteText(athlete1_text);
+    callAthlete1Text.style.display = "flex";
 })
 
 //calling athlete 2
-athleteId(athlete2).addEventListener('click', (event) => {
+let callAthlete2 = document.getElementById('athlete2');
+let callAthlete2Text = document.getElementById('athlete2_text');
+callAthlete2.addEventListener('click', (event) => {
     visible();
-    athleteText(athlete2_text);
+    callAthlete2Text.style.display = "flex";
 })
 
 //calling athlete 3
-athleteId(athlete3).addEventListener('click', (event) => {
+let callAthlete3 = document.getElementById('athlete3');
+let callAthlete3Text = document.getElementById('athlete3_text');
+callAthlete3.addEventListener('click', (event) => {
     visible();
-    athleteText(athlete3_text);
+    callAthlete3Text.style.display = "flex";
 })
 
 //calling athlete 4
-athleteId(athlete4).addEventListener('click', (event) => {
+let callAthlete4 = document.getElementById('athlete4');
+let callAthlete4Text = document.getElementById('athlete4_text');
+callAthlete4.addEventListener('click', (event) => {
     visible();
-    athleteText(athlete4_text);
+    callAthlete4Text.style.display = "flex";
 })
+
