@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasDemiITC.ttf');
+  }
+
+  @font-face {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasDemiITC.ttf');
+}
+
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 15%;
+    height: 0px; /* Should be removed. Only for demonstration */
+    width: auto;
+  }
+
+  h2 {
+      border-bottom: 2px solid #033EA7;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
