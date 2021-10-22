@@ -4,23 +4,25 @@
         <meta charset="utf-8">
         <title> Om oss </title>
         <link rel="stylesheet" type="text/css" href="css/about.css">
+        <link rel="stylesheet" type="text/css" href="css/headerAndFooter.css">
     </head>
     <body>
+    <header id="headerAbout"></header>
     <h1>Team Sprint </h1>
     <hr>
-    <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+    <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
         introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
         teksten skal være midtstilt på siden, der teksten er justert mot 
         venstre. Det vil også være en horisontal linje under overskriften som 
         skiller teksten og overskriften.</p>
-    <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+    <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
         Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
         overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
         med tilhørende navn under. På første linje vil det være to portretter, og på 
         andre linje vil det være tre portretter. Portrettene skal ha en bredde på 200px 
         og være midtstilt på siden, med passende mellomrom mellom hvert bilde. 
         Navnene skal midtstilles under hvert bilde.</p>
-    <p> Når den besøkende klikker på et av portsettbilene eller navnene skal det 
+    <p class="p"> Når den besøkende klikker på et av portsettbilene eller navnene skal det 
         åpnes et pop-up-vindu med informasjon om utøverene. I vinduet som åpnes vil 
         navnet på utøveren/trener være overskriften, etterfulgt av det samme portrettbildet, 
         men litt større dimensjon på bildet (bredde:500px). I tillegg til bildet vil det 
@@ -30,26 +32,26 @@
         bli mørk med en opacity på 0.7, slik at vinduet står i fokus.</p>
 
     <img id="team" src="img/CFR_4854.jpg" alt= "Bilde av Team Sprint">
-    <h1>Vårt team </h1>
-    <hr>
+    <h1 id=theTeam>Vårt team </h1>
+    <hr style="margin-bottom: 5%;">
     <div class="flex-container" id=flex1>
-        <a href="about.html#button" class="button" id="button"> <img class="trainer" src="img/portrett_arne.jpg" alt="Portrett av Arne Skuterud" width="200px"> </a>
-        <a href="about.html#button" class="button"> <img class="athlete1" src="img/portrett_carina.jpg" alt="Portrett av Carina Jagtøyen" width="200px"> </a>
+        <a href="about.html#theTeam" class="button" id="button"> <img class="trainer" src="img/portrett_arne.jpg" alt="Portrett av Arne Skuterud" width="200px"> </a>
+        <a href="about.html#theTeam" class="button"> <img class="athlete1" src="img/portrett_carina.jpg" alt="Portrett av Carina Jagtøyen" width="200px"> </a>
     
     </div>
     <div class="flex-container">
-        <a href="about.html#button" class="button"> <h2 class="trainer" id="name_trainer"> Arne Skuterud </h2> </a>
-        <a href="about.html#button" class="button"> <h2 class="athlete1"> Carina Jagtøyen </h2> </a>
+        <a href="about.html#theTeam" class="button"> <h2 class="trainer" id="name_trainer"> Arne Skuterud </h2> </a>
+        <a href="about.html#theTeam" class="button"> <h2 class="athlete1"> Carina Jagtøyen </h2> </a>
     </div>
     <div class="flex-container">
-    <a href="about.html#button" class="button"> <img class="athlete2" src="img/portrett_erik.jpg" alt="Portrett av Erik Resell" width="200px"></a>
-    <a href="about.html#button" class="button"> <img class="athlete3" src="img/portrett_magnus.jpg" alt="Portrett av Magnus Dahle" width="200px"> </a>
-    <a href="about.html#button" class="button"> <img class="athlete4" src="img/portrett_simen.jpg" alt="Portrett av Simen Kroken" width="200px"> </a>
+    <a href="about.html#theTeam" class="button"> <img class="athlete2" src="img/portrett_erik.jpg" alt="Portrett av Erik Resell" width="200px"></a>
+    <a href="about.html#theTeam" class="button"> <img class="athlete3" src="img/portrett_magnus.jpg" alt="Portrett av Magnus Dahle" width="200px"> </a>
+    <a href="about.html#theTeam" class="button"> <img class="athlete4" src="img/portrett_simen.jpg" alt="Portrett av Simen Kroken" width="200px"> </a>
     </div>
-    <div class="flex-container">
-        <a href="about.html#button" class="button"> <h2 class="athlete2"> Erik Resell</h2> </a>
-        <a href="about.html#button" class="button"> <h2 class="athlete3"> Magnus Dahle </h2> </a>
-        <a href="about.html#button" class="button"> <h2 class="athlete4"> Simen Kroken </h2> </a>
+    <div class="flex-container" style="margin-bottom: 20%;">
+        <a href="about.html#theTeam" class="button"> <h2 class="athlete2"> Erik Resell</h2> </a>
+        <a href="about.html#theTeam" class="button"> <h2 class="athlete3"> Magnus Dahle </h2> </a>
+        <a href="about.html#theTeam" class="button"> <h2 class="athlete4"> Simen Kroken </h2> </a>
     </div>
 
 
@@ -61,13 +63,13 @@
                 <h1 class="popHeader" id="trainer_name"> Arne Skuterud</h1>
                 <hr>
                 <img src="img/portrett_arne.jpg" alt="Portrett av Arne Skuterud" width="200px">
-                <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+                <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
                     introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
                     teksten skal være midtstilt på siden, der teksten er justert mot 
                     venstre. Det vil også være en horisontal linje under overskriften som 
                     skiller teksten og overskriften. </p>
 
-                <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+                <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
                     Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
                     overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
                     med tilhørende navn under. På første linje vil det være to portretter, og på 
@@ -80,13 +82,13 @@
                 <h1 class="popHeader" id="athlete1_name"> Carina Jagtøyen </h1>
                 <hr>
                 <img src="img/portrett_carina.jpg" alt="Portrett av Carina Jagtøyen" width="200px">
-                <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+                <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
                     introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
                     teksten skal være midtstilt på siden, der teksten er justert mot 
                     venstre. Det vil også være en horisontal linje under overskriften som 
                     skiller teksten og overskriften. </p>
 
-                <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+                <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
                     Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
                     overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
                     med tilhørende navn under. På første linje vil det være to portretter, og på 
@@ -99,13 +101,13 @@
                 <h1 class="popHeader" id="athlete2_name"> Erik Resell</h1>
                 <hr>
                 <img src="img/portrett_erik.jpg" alt="Portrett av Erik Resell" width="200px">
-                <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+                <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
                     introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
                     teksten skal være midtstilt på siden, der teksten er justert mot 
                     venstre. Det vil også være en horisontal linje under overskriften som 
                     skiller teksten og overskriften. </p>
 
-                <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+                <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
                     Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
                     overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
                     med tilhørende navn under. På første linje vil det være to portretter, og på 
@@ -118,13 +120,13 @@
                 <h1 class="popHeader" id="athlete3_name"> Magnus Dahle </h1>
                 <hr>
                 <img src="img/portrett_magnus.jpg" alt="Portrett av Magnus Dahle" width="200px">
-                <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+                <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
                     introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
                     teksten skal være midtstilt på siden, der teksten er justert mot 
                     venstre. Det vil også være en horisontal linje under overskriften som 
                     skiller teksten og overskriften. </p>
 
-                <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+                <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
                     Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
                     overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
                     med tilhørende navn under. På første linje vil det være to portretter, og på 
@@ -137,13 +139,13 @@
                 <h1 class="popHeader" id="athlete4_name"> Simen Kroken</h1>
                 <hr>
                 <img src="img/portrett_simen.jpg" alt="Portrett av Simen Kroken" width="200px">
-                <p> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
+                <p class="p"> Siden starter med overskriften "Team Sprint", etterfulgt av en kort 
                     introduksjon av laget, deres arbeid og målsettinger. Overskriften og 
                     teksten skal være midtstilt på siden, der teksten er justert mot 
                     venstre. Det vil også være en horisontal linje under overskriften som 
                     skiller teksten og overskriften. </p>
 
-                <p> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
+                <p class="p"> Under introduksjonen av laget kommer introduksjonen av treneren og utøverne. 
                     Overskriften er "Vårt Team" etterfulgt av en horisontal linje som skiller 
                     overskriften og innholdet. Deretter følger et portrettbilde av hver utøver 
                     med tilhørende navn under. På første linje vil det være to portretter, og på 
@@ -154,7 +156,7 @@
             <div id="close"> +  </div>
         </div>
     </div> 
-
+    <footer id="footerAbout"></footer>
     <script src="js/pictures.js"></script>
     <script src="js/headerAndFooter.js"></script>
     </body>
