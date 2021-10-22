@@ -4,37 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/navstyle.css"> </link>
-    <link rel="stylesheet" type="text/css" href="css/results.css"> </link>
+    <link rel="stylesheet" type="text/css" href="css/headerAndFooter.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/results.css"></link>
     <title>Results</title>
 </head>
 <body>
-    <header>
-        <span id="navbar">
-            <a id="logo" class="navpage" href="index.html" target="_parent">
-                <img src="img/logo_hvit.png" width="150px"/>
-            </a>
-            <a class="navpage" href="about.html" target="_parent">OM OSS</a>
-            <a class="navpage" href="sprinttechnique.html" target="_parent">TRENINGSFILOSOFI</a>
-            <a class="navpage" href="results.html" target="_parent">RESULTATER</a>
-            <a class="navpage" href="sponsors.html" target="_parent">SPONSORER</a>
-        </span>
-    </header>
-   
 
-    <p>Til venstre på siden vil det være festet en kolonne med bilder, som har en bredde på 360px. Til høyre for bilde-seksjonen vil resultatoppdateringene være plassert med en venstre marg på 100px. 
-    Hver oppdatering vil starte med en overskrift, for eksempel navnet på konkurransen, etterfulgt av en horisontal linje og deretter innholdet. Både overskrift og innhold skal være justert mot venstre.
-    </p>
+    <header id="headerHomepage"></header>
+
+    <br>
 
     <div class="column">
         <div class="bilde1">
-            <img src="img/CFR_8189.jpg" id="bilde1" width="360px">
-
+            <img src="img/CFR_8189.jpg" id="bilde1" width="100%">
         </div>
     
         <div class="bilde2">
-            <img src="img/CFR_9139.jpg" id="bilde1" width="360px">
-
+            <img src="img/CFR_9139.jpg" id="bilde2" width="100%" >
         </div>
         <div class="bilde3">
             <img src= >
@@ -43,18 +29,32 @@
 
 
     <div class="flex-container">
-        <div class="flex-item" style=> 
-            <h1> Resultater </h1>
-            
-            <p> Lorem ipsum </p>
-
-            <b> Carina Jagtøyen </b>
+        <div class="flex-item"> 
+            <div class="tittel">
+                <h1>Resultater</h1>
+            </div>
+            <div class="tekst">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                     occaecat cupidatat non proident, sunt in culpa qui officia 
+                     deserunt mollit anim id est laborum.
+                </p>
+            </div>  
+            <div class="utøver1">
+                <b> Carina Jagtøyen </b>
+            </div>  
 
         </div>
            
         
     </div>
 
-    <script type="text/javascript" src="navbar.js"></script>
+    <footer id="footerHomepage"></footer>
+
+    <script type="text/javascript" src="js/headerAndFooter.js"></script>
 </body>
 </html>

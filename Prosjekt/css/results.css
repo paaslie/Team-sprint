@@ -1,13 +1,31 @@
-.bilde1 {
-    width: 200px;
-    padding: 1px;
+
+.column {
+    left:0%;
+    padding:0%;
+    width: 30%;
+}
+  
+
+.flex-container {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+   
+    
 }
 
-h1 {
+.flex-item {
+    position: absolute;
+    left: 30%;
+    
+}
+
+.tittel {
     font-family: 'Eras Demi ITC';
     src: url('../fonts/ErasDemiITC.ttf');
+    size: 32pt;
     color: #033EA7;
-    border-bottom: 2px solid #033EA7;
+    
 }
 
 @font-face {
@@ -15,35 +33,22 @@ h1 {
     src: url('../fonts/ErasDemiITC.ttf');
 }
 
-body {
-    
-}
+.utøver1 {
+    font-family: Arial;
+    font-size: 16pt;
+    color: #414141;
 
-.column {
-    position: absolute;
-    left:0%;
-    padding: 5px;
-    width: 360px;
-  }
-  
+} 
 
-.flex-container {
-    position: absolute;
-    display: flex;
-    left: 460px;
-   
-    
-}
 
-.flex-item {
-   
-}
-h1 {
-    color: #033EA7;
-    border-bottom: 2px solid #033EA7;
-}
-b {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+.tekst {
+    font-family: Arial;
+    font-size: 16pt;
+    color: #414141;
+    border-top: 2px solid #033EA7;
+    min-width: 40ch;
+    max-width: 100%;
+
+
 }
 

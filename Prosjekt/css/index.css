@@ -1,8 +1,52 @@
+
+
 iframe {
     width: 80%;
     height: 600px;
-    position: absolute;
     margin-left: 10%;
+    margin-top: 5%;
+    padding: auto;
 
+}
+.credit {
+    font-family: Arial;
+    font-size: 12pt;
+    color: #414141;
+    margin-left: 20%;
+}
+
+.instagram {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasDemiITC.ttf');
+    font-size: 16pt;
+    color: #033EA7;
+    margin-left: 15%;
+    border-bottom: 2px solid #033EA7;
+    
+}
+
+@font-face {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasDemiITC.ttf');
+
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+
+    padding: 0px;
+    border-top: 10px solid #033EA7;
+    
+  }
+
+
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
