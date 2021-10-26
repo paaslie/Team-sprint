@@ -115,3 +115,32 @@ a {
     margin: auto;
 }
 
+.fig {
+    display: none;
+    font-family: "Eras Demi ITC";
+    font-size: 24px;
+    color: #033EA7;
+}
+
+#flex1 img:hover, #flex2 img:hover {
+    opacity: .5;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;      
+    }
+
+    .fig {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    #hideName1, #hideName2 {
+        display: none;
+    }
+}
