@@ -1,4 +1,4 @@
-const header = ' <header id="headerAll"><ul class="navbar"><li><a id="logo" href="index.html"><img src="img/logo_white_long.png" width="270px"/></a></li><li><a href="about.html">OM OSS</a></li><li class="dropdown"><a href="javascript:void(0)" class="btnDrop">TRENINGSFILOSOFI</a><div class="dropdownContent"><a href="trainingprogram.html">Treningsprogram</a><a href="exercises.html">Øvelser</a><a href="sprinttechnique.html">Sprintteknikk</a></div></li><li><a href="results.html">RESULTATER</a></li><li><a href="sponsors.html">VÅRE SPONSORER</a></li></ul></header>';
+const header = ' <header id="headerAll"><div class="navbar"><a id="logo" href="index.html"><img src="img/logo_white_long.png" width="270px"/></a><ul id="menuContent"><li><a href="about.html">OM OSS</a></li><li class="dropdown"><a href="javascript:void(0)" class="btnDrop">TRENINGSFILOSOFI</a><div class="dropdownContent"><a href="trainingprogram.html">Treningsprogram</a><a href="exercises.html">Øvelser</a><a href="sprinttechnique.html">Sprintteknikk</a></div></li><li><a href="results.html">RESULTATER</a></li><li><a href="sponsors.html">VÅRE SPONSORER</a></li></ul><img id="burgerIcon" src="img/hamburgermeny.png" height="25px" onclick="showHamburgerMenu()"></div><ul id="burgerMenu"><li><a href="about.html">OM OSS</a></li><li><a href="trainingprogram.html">TRENINGSPROGRAM</a></li><li><a href="exercises.html">ØVELSER</a></li><li><a href="sprinttechnique.html">SPRINTTEKNIKK</a></li><li><a href="results.html">RESULTATER</a></li><li><a href="sponsors.html">VÅRE SPONSORER</a></li></ul></header>';
 const footer = ' <footer id="footerAll"><div class="footer-flex-container"><div class="footer-item"><p><b>Kontakt oss:</b></p><p>E-post: mail@teamsprint.no</p><p>Tlf.: +47 90926315</p></div><div class="footer-item"><p><b><i>Ønsker du å støtte team Sprint?</i></b></p><p>Kontakt oss gjerne på mail eller telefon.</p></div><div class="footer-item"><a href="https://www.instagram.com/team_sprint/" target="_blank"><p><img src="img/insta_logo.png" width="18px" alt="instagram logo">&ensp;@team_sprint</p></a><a href="https://www.facebook.com/teamsprintskoyter/" target="_blank"><p><img src="img/facebook_logo.png" width="18px" alt="facebook logo">&ensp;@teamsprintskoyter</p></a></div></div></footer>';
 //to strings med alt innhold i headeren og footeren. 
 //Gjør det på denne måten for å kunne benytte innerHTML senere for å sette inn header og footer på alle sidene i tabellen under.
@@ -24,3 +24,13 @@ includeHeaderAndfooter();   //kjører funksjonen
 
 //var current = location.href;    skal kanskje brukes senere til å markere hvilken side man befinner seg på 
 
+function showHamburgerMenu(){
+  let burgerMenu = document.getElementById("burgerMenu");
+  let standardMenu = document.getElementsByClassName("navbar");
+
+  if (burgerMenu.style.display === "block") {
+    burgerMenu.style.display = "none";
+  } else {
+    burgerMenu.style.display = "block";
+  }
+}

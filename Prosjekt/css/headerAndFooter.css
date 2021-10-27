@@ -1,29 +1,34 @@
 /*------HEADER STYLING-------------------------------------------------*/
-.navbar {
-    list-style-type: none;
-    background-color: #033EA7;
-    overflow: hidden;
-    margin: -8px;
-    font-family: 'Roboto-Regular', Arial, sans-serif;
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: -8px;
+    background-color: #033EA7;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 18px;
+    font-family: 'Roboto-Regular', Arial, sans-serif;
 }
 
 .navbar li {
     float: left;
-    margin: 8px;
 }
 
 .navbar li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 40px;
+    padding: 10px 38px;
     text-decoration: none;
 
 }
 
 #logo {
-    padding: 2% 0 0 0; 
+   padding: 1.5% 0 0 2%;
 }
 
 #logo:hover {
@@ -38,14 +43,6 @@ li.dropdown {
     display: inline-block;
 }
 
-/*
-    <ul class=Navbar>
-        <li>
-            <li class=dropdown>
-                <div class=dropwdownContent>
-                    <a>
-                    
-*/
 
 .dropdownContent {
     display: none;
@@ -70,10 +67,37 @@ li.dropdown {
     display: block;
 }
 
+#burgerIcon, #burgerMenu{
+    display: none;
+}
+
+
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto-Regular.ttf');
 }
+
+
+@media only screen and (max-width: 1200px) {
+
+    #burgerIcon {
+        display: block;
+        float:right;
+        margin: 2.5%;
+        cursor: pointer;
+    }
+
+    .navbar {
+        justify-content:space-between;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+}
+
+
 /*------FOOTER STYLING-------------------------------------------------*/
 
 .footer-flex-container {
@@ -92,3 +116,4 @@ li.dropdown {
     text-decoration: none;
     color: white;
 }
+
