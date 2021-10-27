@@ -1,0 +1,103 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 5%;
+}
+
+/* Lager tre kolonner som flyter ved siden av hverandre */
+.leftcolumn {
+    float: left;
+    width: 30%;
+}
+
+.midcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+/* Fjerner float etter kolonnene */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styler boksene i kolonnene */
+.item-a {
+    height: auto;
+    background-color: #fff;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 4px 4px 16px grey;
+ }
+
+.item-a, .item-b {
+    margin-bottom: 60px;
+}
+
+.itemImg {
+    width: 100%;
+    box-shadow: 4px 4px 16px grey;
+ }
+
+/* Styler tekst og linker */
+p, h2, ol, ul {
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.5em;
+ }
+
+h2 {
+    font-size: 16pt !important;
+ }
+
+ol {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bulletlist {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.forklaring {
+    display: inline-block;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+a:link {
+    color: #414141;
+}
+
+a:hover, a:active {
+    color: #033EA7;
+}
+
+/* Når skjermen blir smalere enn 900px vil de tre kolonnene legge seg under hverandre i én og samme kolonne */
+@media screen and (max-width: 900px) {
+  .leftcolumn, .midcolumn, .rightcolumn {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    padding: 0;
+  }
+}
