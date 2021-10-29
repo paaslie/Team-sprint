@@ -49,6 +49,7 @@
     background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../img/CFR_9064.jpg");
     background-size: 100%;
     margin-top: -2px;
+    z-index: -1;
 }
 
 
@@ -60,6 +61,7 @@
     background-color: none;
     padding-top: 30px;
     text-align: center;
+    z-index: 0;
 }
 
 /* Hider alle som ikke skal vises når man kommer inn på siden */
@@ -100,4 +102,5 @@
 
 .øvelsevideo { 
     width: 60%;
+    z-index: -2;
 }
