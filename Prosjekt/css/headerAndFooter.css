@@ -15,7 +15,7 @@
 }
 
 .navbar li {
-    float: left;
+    float: left; 
 }
 
 .navbar li a {
@@ -88,13 +88,51 @@ li.dropdown {
     }
 
     .navbar {
-        justify-content:space-between;
+        justify-content: space-between;
+    }
+
+    #burgerMenu {
+        position: absolute;
+        right: 0;
+        background-color: white;
+        box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+    }
+
+    #burgerMenu li {
+        margin-right: 10px;
+        list-style-type: none;
+        text-align: left;
+        margin: 15px 15px 20px 2px;
+        font-size: 14pt;
+    }
+
+    #burgerMenu li a {
+        text-decoration: none;
+        color:  #414141;
+        padding: 10px;
+        
+    }
+
+    #burgerMenu a:hover {
+        background-color: #E6E6E6;
     }
 
     .navbar li {
         display: none;
     }
 
+    #burgerMenu hr {
+        width: 150px;
+        left: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) {
+    #burgerMenu {
+        display: none !important;
+    }
 }
 
 
