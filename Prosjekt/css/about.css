@@ -91,13 +91,13 @@ a {
     background-image: url("../img/bgAboutUs.png");
     background-size: 100%;
     width: 50%;
-    height: 40%;
+    height: 45%;
     border-radius:4px;
     text-align: center;
     padding: 0%;
     position: relative;
     margin: auto;
-    margin-top: 95%;
+    margin-top: 83%;
 }
 
 #close {
@@ -126,6 +126,10 @@ a {
     opacity: .5;
 }
 
+.responsiveDisplay {
+    display: none;
+}
+
 
 @media only screen and (max-width: 900px) {
     .flex-container {
@@ -135,12 +139,32 @@ a {
     }
 
     .fig {
+        font-size: 27px;
         display: flex;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 5%;
+        margin-top: 10%;
     }
 
     #hideName1, #hideName2 {
         display: none;
+    }
+
+    .responsiveDisplay {
+        display: block;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .pop {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    #flex1 img:hover, #flex2 img:hover {
+        opacity: 1;
     }
 }
