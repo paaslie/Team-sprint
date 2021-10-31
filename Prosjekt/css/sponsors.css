@@ -3,32 +3,43 @@
 }  
   
 .column {
-    float: left;
-    left: 50%;
-    padding-left: 15%;
-    padding-right: 15%;
-    width: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
+  float: left;
+  padding-left: 11%;
+  padding-right: 11%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  max-width: 50%;
 }
 
 h2 {
     border-bottom: 2px solid #033EA7;
+    width: 50%;
+}
+
+text {
+  max-width:50%;
 }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  .row {
-    bottom: 50px;
-    font-family: Arial;
-    font-size: 16pt;
-    color: #414141;
+.row {
+  bottom: 50px;
+  font-family: Arial;
+  font-size: 14pt;
+  color: #414141;
+    
+}
 
+@media screen and (max-width: 900px) {
+   {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    padding: 0;
   }
 
   

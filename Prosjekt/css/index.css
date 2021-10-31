@@ -21,8 +21,12 @@ iframe {
     font-size: 16pt;
     color: #033EA7;
     margin-left: 15%;
-    border-bottom: 2px solid #033EA7;
+    margin-bottom: 50px;
     
+}
+
+.instagram-media {
+    margin-left: 15%;
 }
 
 @font-face {
