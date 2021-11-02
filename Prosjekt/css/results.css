@@ -1,22 +1,27 @@
 
 .column {
+    position: absolute;
     left:0%;
     padding:0%;
     width: 30%;
+    max-width: 360px;
 }
   
-
 .flex-container {
-    position: absolute;
-    top: 250px;
-    left: 40%;
-   
-    
+    position: relative;
+    bottom: 200px;
+    top: 50px;
+    left: 20%;
+    max-width: 50ch;  
+    margin-right: 10%  
+
 }
 
 .flex-item {
-    position: absolute;
-    left: 30%;
+    position: relative;
+    left: 30%; 
+    bottom: 100px;
+    top: 100px;
     
 }
 
@@ -33,22 +38,29 @@
     src: url('../fonts/ErasDemiITC.ttf');
 }
 
-.utøver1 {
+.resultat {
     font-family: Arial;
-    font-size: 16pt;
+    font-size: 12pt;
     color: #414141;
-
+    line-height: 1;
 } 
 
-
-.tekst {
+.løp {
     font-family: Arial;
-    font-size: 16pt;
+    font-size: 12pt;
     color: #414141;
     border-top: 2px solid #033EA7;
-    min-width: 40ch;
+    min-width: 50ch;
     max-width: 100%;
-
-
 }
 
+footer {
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 900px) {
+    .flex-container {
+      font-size: 70%;
+      width: 70%;
+    }
+  }
