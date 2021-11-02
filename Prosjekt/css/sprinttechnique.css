@@ -9,17 +9,19 @@ body {
 .main-flex-container {
     display: flex;
     justify-content: center;
-    margin: 5% 9% 5% 9%;
+    margin: 3% 5% 20% 10%;
 }
 
 .flex-item {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-
+    line-height: 1.5em;
+    margin-right: 5%;
 }
 
 #title {
-    margin-left: 13%;
+    margin-top: 10%;
+    margin-left: 10%;
     color: #033EA7;
     font-family: 'Eras Demi ITC';
     font-size: 32pt;
@@ -31,9 +33,9 @@ body {
 }
 
 hr {
-    border: 2px solid #033EA7;
+    border-top: 3px solid #033EA7;
     width: 30%;
-    margin-right: 60%;
+    margin-left: 10%;
     margin-top: -20px;
 }
 

@@ -12,7 +12,8 @@ iframe {
     font-family: Arial;
     font-size: 12pt;
     color: #414141;
-    margin-left: 20%;
+    margin-left: 15%;
+    margin-top: 20px;
 }
 
 .instagram {
@@ -21,12 +22,20 @@ iframe {
     font-size: 16pt;
     color: #033EA7;
     margin-left: 15%;
+    margin-top: 100px;
+}
+
+hr {
+    border-top: 3px solid #033EA7;
+    width: 40%;
+    margin-left: 0;
+    margin-top: -20px;
     margin-bottom: 50px;
-    
 }
 
 .instagram-media {
     margin-left: 15%;
+    margin-bottom: 50px;
 }
 
 @font-face {
@@ -36,16 +45,22 @@ iframe {
 }
 
 
+#topLine {
+    border-top: 3px solid #033EA7;
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
 .column {
     float: left;
     width: 25%;
     padding: 0px;
-    border-top: 8px solid #033EA7;
-    
-  }
+}
 
 
-  
   /* Clear floats after image containers */
 .row::after {
     content: "";

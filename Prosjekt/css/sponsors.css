@@ -4,20 +4,36 @@
   
 .column {
   float: left;
-  padding-left: 11%;
-  padding-right: 11%;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  max-width: 50%;
+  margin-left: 10%;
+  max-width: 35%;
+  margin-bottom: 5%;
+}
+
+#row_1 {
+  margin-top: 5%;
 }
 
 h2 {
-    border-bottom: 2px solid #033EA7;
-    width: 50%;
+    border-bottom: 3px solid #033EA7;
+    width: 100%;
 }
 
-text {
-  max-width:50%;
+.tekst {
+  line-height: 1.5em;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skueLogo {
+  margin-bottom: 30px;
+}
+
+#sbLogo {
+  margin-bottom: 24px;
 }
   
 .row:after {
@@ -27,19 +43,15 @@ text {
 }
 
 .row {
-  bottom: 50px;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
   color: #414141;
     
 }
 
-@media screen and (max-width: 900px) {
-   {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 15%;
-    padding: 0;
+@media only screen and (max-width: 900px) {
+  .column {
+    width: 100%;
   }
-
+}
   
