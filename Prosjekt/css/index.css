@@ -1,9 +1,9 @@
 
 
 iframe {
-    width: 80%;
+    width: 70%;
     height: 600px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 5%;
     padding: auto;
 
@@ -39,9 +39,8 @@ iframe {
 .column {
     float: left;
     width: 25%;
-
     padding: 0px;
-    border-top: 10px solid #033EA7;
+    border-top: 8px solid #033EA7;
     
   }
 
