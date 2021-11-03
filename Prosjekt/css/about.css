@@ -87,6 +87,9 @@ a {
     display: none;
 }
 
+
+
+
 .pop-content {
     /**background-image: url("../img/bgAboutUs.png");**/
     background-color: rgb(232, 232, 241);
@@ -101,6 +104,8 @@ a {
     margin: auto;
     margin-top: 83%;
 }
+
+
 
 #close {
     position: absolute;
