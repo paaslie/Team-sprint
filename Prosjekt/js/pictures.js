@@ -20,6 +20,9 @@ closeButton.addEventListener('click', (event) => {
 })
 
 
+
+//commenting out pop-up for trainser incase client wants to set in text later.
+/**
 // calling trainer
 let callTrainer = document.getElementsByClassName('trainer');
 let callTrainerText = document.getElementById('trainer_text');
@@ -34,7 +37,8 @@ for (let i=0; i< callTrainer.length; i++) {
     }, false)
 }
 
-  
+**/
+
 
 
 
