@@ -14,6 +14,7 @@
     padding: 2px;
     width: 100%;
     min-height: 99vh;
+    color: #414141;
 }
 
 
@@ -83,6 +84,7 @@
     background-color: none;
     margin: auto;
     width: 40%;
+    height: auto;
 }
 .koordinasjon { 
     background-color: none;
@@ -106,4 +108,5 @@
     width: 70%;
     z-index: -2;
     box-shadow: 4px 4px 16px grey;
+    margin: 0;
 }
