@@ -176,4 +176,8 @@ a {
     #flex1 img:hover, #flex2 img:hover {
         opacity: 1;
     }
+
+    #arne {
+        display: none;
+    }
 }
