@@ -43,9 +43,16 @@ a {
     src: url('../fonts/ErasDemiITC.ttf');
 }
 
+.teamTekst {
+    font-size: 14pt;
+}
+
 .p {
-    font-family: Arial;
     font-size: 12pt;
+}
+
+.p, .teamTekst {
+    font-family: Arial;
     line-height: 1.5em;
     color: #414141;
     text-align: left;
@@ -96,7 +103,7 @@ a {
     background-size: 100%;
     /**background-repeat: no-repeat;**/
     width: 50%;
-    height: 40%;
+    height: 38%;
     border-radius:4px;
     text-align: center;
     padding: 0%;
