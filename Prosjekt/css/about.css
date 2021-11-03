@@ -88,10 +88,10 @@ a {
 }
 
 .pop-content {
-    /*background-color: white;*/
-    background-image: url("../img/bgAboutUs.png");
+    /**background-image: url("../img/bgAboutUs.png");**/
+    background-color: rgb(232, 232, 241);
     background-size: 100%;
-    background-repeat: no-repeat;
+    /**background-repeat: no-repeat;**/
     width: 50%;
     height: 40%;
     border-radius:4px;
@@ -175,5 +175,9 @@ a {
 
     #flex1 img:hover, #flex2 img:hover {
         opacity: 1;
+    }
+
+    #arne {
+        display: none;
     }
 }
