@@ -63,6 +63,22 @@ a {
     margin-bottom: 1%;
 }
 
+#name2 {
+    margin-left: 30px;
+}
+
+#name3 {
+    margin-right: 30px;
+}
+
+#name4 {
+    margin-left: 50px;
+}
+
+#name5 {
+    margin-left: 40px;
+}
+
 .flex-container {
     display: flex;
     width: 80%;
@@ -74,7 +90,7 @@ a {
 
 #flex1 {
     justify-content: center;
-    gap: 15%;
+    gap: 18%;
 }
 
 #trainer, #athlete1 {
