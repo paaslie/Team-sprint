@@ -12,8 +12,8 @@
 }
 
 .flex-container {
-    position: relative;
-    margin: 10% 10% 5% 30%;
+    position: static;
+    margin: 3% 10% 5% 30%;
     width: 50%;  
 }
 
@@ -29,7 +29,7 @@ hr {
     border-top: 3px solid #033EA7;
     margin-top: -20px;
     margin-left: 0;
-    width: 80%;
+    width: 100%;
     margin-bottom: 3%;
 }
 
@@ -69,8 +69,10 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
-    .flex-container {
-      font-size: 70%;
-      width: 70%;
+    .resultat, .løp {
+        font-size: 12pt;
+    }
+    h1 {
+        font-size: 24pt;
     }
   }

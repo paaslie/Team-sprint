@@ -26,7 +26,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+
 }
 
 #skueLogo {
@@ -50,9 +50,13 @@ h2 {
     
 }
 
-@media only screen and (max-width: 900px) {
-  .column {
+
+@media screen and (max-width: 900px) {
+  .logo {
+    height: auto;
     width: 100%;
   }
+  .row {
+    font-size: 12pt;
+  }
 }
-  

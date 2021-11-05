@@ -1,14 +1,14 @@
 // // Henter ut de fire(åtte) klassene for de forskjellige gruppene av øvelser
 // var koordinasjon = document.querySelectorAll(".koordinasjon")
-// var topprykk = document.querySelectorAll(".topprykk")
+// var topptrykk = document.querySelectorAll(".topptrykk")
 // var spesifikk = document.querySelectorAll(".spesifikk")
 // var lavarbeid = document.querySelectorAll(".lavarbeid")
 
 
 // // Fire funksjoner for å skule hver av øvelsesfanene
-// function hidetopprykk() { 
+// function hidetopptrykk() { 
 //     var i;
-//     for (i = 0; i < topprykk.length; i++) {
+//     for (i = 0; i < topptrykk.length; i++) {
 //       topprykk[i].style.display = "none";
 // }
 // }
@@ -43,7 +43,7 @@
 //       koordinasjon[i].style.display = "block";
 // }
 // }
-// function displaytopprykk() { 
+// function displaytopptrykk() { 
 //     var i;
 //     for (i = 0; i < topprykk.length; i++) {
 //       topprykk[i].style.display = "block";
@@ -66,25 +66,25 @@
 // // Sette disse sammen for å vise én, og skjule alle andre, siden du ikke vet hvilken 
 // // som vises før, så skjules alle andre enn den som vises
 // function showlavarbeid() { 
-//     hidetopprykk()
+//     hidetopptrykk()
 //     hidespesifikk()
 //     displaylavarbeid()
 //     hidekoordinasjon()
 // }
 // function showkoordinasjon() { 
-//     hidetopprykk()
+//     hidetopptrykk()
 //     hidespesifikk()
 //     hidelavarbeid()
 //     displaykoordinasjon()
 // }
 // function showspesifikk() { 
-//     hidetopprykk()
+//     hidetopptrykk()
 //     displayspesifikk()
 //     hidelavarbeid()
 //     hidekoordinasjon()
 // }
 // function showtopprykk() { 
-//     displaytopprykk()
+//     displaytopptrykk()
 //     hidespesifikk()
 //     hidelavarbeid()
 //     hidekoordinasjon()
@@ -108,7 +108,7 @@ function showkoordinasjon() {
     content[2].style.display = "none"
     content[3].style.display = "none"
 }
-function showtopprykk() { 
+function showtopptrykk() { 
     knapp = document.querySelectorAll(".knapp")
     knapp[0].style.backgroundColor = "white"
     knapp[1].style.backgroundColor = "lightgrey"

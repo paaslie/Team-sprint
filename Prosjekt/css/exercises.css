@@ -64,6 +64,7 @@ h4 {
     height:auto;
     background-image: url("../img/bgExercises.png");
     background-size: 100%;
+    background-position: fixed;
     margin-right: -20px;
     margin-top: -2px;
     z-index: -1;
@@ -94,7 +95,7 @@ h4 {
 
 
 /* Her er hver og en av de fire content-boksene */
-.topprykk { 
+.topptrykk { 
     background-color: none;
     margin: auto;
     width: 40%;
@@ -124,3 +125,10 @@ h4 {
     box-shadow: 4px 4px 16px grey;
     margin: 0;
 }
+
+
+@media screen and (max-width: 900px) {
+    #sidebar {
+        font-size: 12pt;
+    }
+  }
