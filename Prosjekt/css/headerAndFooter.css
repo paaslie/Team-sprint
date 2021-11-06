@@ -28,7 +28,7 @@
 }
 
 #logo {
-   padding: 1.5% 0 0 2%;
+   padding: 1.5% 0 0 3%;
 }
 
 #logo:hover {
@@ -53,7 +53,7 @@ li.dropdown {
 
 .navbar .dropdownContent a {
     color:#414141;
-    padding: 14px 50px;
+    padding: 14px 49.5px;
     display: block;
     text-align: left;
 
@@ -82,7 +82,7 @@ li.dropdown {
 
     #burgerIcon {
         display: block;
-        float:right;
+        float: right;
         margin: 2.5%;
         cursor: pointer;
     }
@@ -100,17 +100,17 @@ li.dropdown {
     }
 
     #burgerMenu li {
-        margin-right: 10px;
         list-style-type: none;
         text-align: left;
-        margin: 15px 15px 20px 2px;
+        margin: 15px 25px 20px 2px;
         font-size: 14pt;
     }
 
     #burgerMenu li a {
         text-decoration: none;
+        font-family: 'Roboto-Regular', Arial, sans-serif;
         color:  #414141;
-        padding: 10px;
+        padding: 15px;
         
     }
 
@@ -142,6 +142,7 @@ li.dropdown {
     display: flex;
     justify-content: center;
     background-color: #033EA7;
+    font-family: Arial, sans-serif;
     color: white;
     margin: -8px;
 }

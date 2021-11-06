@@ -1,8 +1,5 @@
 
 /* Hele siden */
-
- 
-
 #container { 
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
@@ -54,17 +51,14 @@ h4 {
 } 
 
 
-
 /* Her starter css til selve innholdet og "wrapperen" til innholdet */
-
 #øvelsercontainer { 
     display: flex;
     flex-direction: column;
     width: 100%;
     height:auto;
     background-image: url("../img/bgExercises.png");
-    background-size: 100%;
-    background-position: fixed;
+    background-size: cover;
     margin-right: -20px;
     margin-top: -2px;
     z-index: -1;
@@ -120,7 +114,7 @@ h4 {
 /* Øvelser videoer */
 
 .øvelsevideo { 
-    width: 70%;
+    width: 80%;
     z-index: -2;
     box-shadow: 4px 4px 16px grey;
     margin: 0;
@@ -130,5 +124,17 @@ h4 {
 @media screen and (max-width: 900px) {
     #sidebar {
         font-size: 12pt;
+    }
+    .øvelsercontent {
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .topptrykk, .lavarbeid, .spesifikk, .koordinasjon {
+        width: 70%
+    }
+    #øvelsercontainer {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
   }

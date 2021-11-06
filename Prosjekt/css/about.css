@@ -59,7 +59,7 @@ a {
     width: 60%;
     margin-left: 25%;
     margin-right: 25%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 1%;
 }
 
@@ -119,7 +119,7 @@ a {
     background-size: 100%;
     /**background-repeat: no-repeat;**/
     width: 50%;
-    height: 38%;
+    height: 40%;
     border-radius:4px;
     text-align: center;
     padding: 0%;
@@ -127,8 +127,6 @@ a {
     margin: auto;
     margin-top: 83%;
 }
-
-
 
 #close {
     position: absolute;
