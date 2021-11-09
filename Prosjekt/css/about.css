@@ -3,7 +3,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
+    margin-left:0;
 }
 
 #team {
@@ -101,9 +102,12 @@ a {
 .pop {
     width: 100%;
     /*height: 315.9%;*/
-    height: 2620px;
+    /*height: 2620px;*/
+    margin-left: 0;
+    height: 100%;
     background-color: rgba(0,0,0,0.7);
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     /*display: flex;*/
     top: 0;
     justify-content: center;
@@ -120,13 +124,14 @@ a {
     background-size: 100%;
     /**background-repeat: no-repeat;**/
     width: 50%;
-    height: 900px;
+    height: 80%;
+    overflow: auto;
     border-radius:4px;
     text-align: center;
-    padding: 0%;
     position: relative;
+    padding: 0;
     margin: auto;
-    margin-top: 83%;
+    margin-top: 5%;
 }
 
 #close {
@@ -145,6 +150,7 @@ a {
 .popText {
     position: absolute;
     margin: auto;
+    padding-bottom: 10%;
 }
 
 .fig {

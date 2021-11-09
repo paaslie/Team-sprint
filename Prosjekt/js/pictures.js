@@ -4,7 +4,7 @@
 //function to make the pop-window show
 function visible() {
     //let athlete = x //Hver atlet har en tekst hver
-    let pop = document.querySelector('.pop').style.display="flex";
+    let pop = document.querySelector('.pop').style.display="block";
 }
 
 
