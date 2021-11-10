@@ -23,22 +23,17 @@
 
         <h2> Endringer fra P2 til P3</h2>
         <ul>
-            <li>Valgte å slå sammen header.js og footer.js til en felles fil headerAndFooter.js, med 
-                felles css.</li>
             <li>Vi valgte å ikke inkludere logoene til sponsorene nederst på hver side, men kun på hjem-siden. Dette skaper et mye ryddigere utseende, 
                 særlig på de sidene hvor vi benytter bakgrunnsbilder, i stedet for hvit bakgrunn.</li>
             <li>Valgte å legge til en hover-effekt når brukeren har pekeren over portrettbildene på Om oss-siden. Dette 
                 ble gjort for å indikere at brukeren kan trykke på bildene for å få tilgang til flere funskjoner.</li>
-        
+            <li>Vi slo sammen navbaren til en hamburgermeny ved mindre skjermstørrelser, for å gjøre siden mer oversiktlig og gjøre det lettere å navigere seg mellom sidene.</li>
         </ul>
-        <b>Endringer i css:</b>
+        <b>Endringer css:</b>
         <ul>
-            <li> Font-size på sidene Våre sponsorer, Resultater, Øvelser
-                og Om oss er satt til 14 pt, istede for 16pt.
-            </li>
-            <li> Font-size på sidene Treningsprogram og sprintteknikk
-                er satt til 12pt, istede for 16pt.
-            </li>
+            <li> Slo sammen stilarket til header/navbar og footer til ett.</li>
+            <li> Font-size på sidene Våre sponsorer, Resultater, Øvelser og Om oss ble endret fra 16pt til 14 pt, for å gjøre helhetsinntrykket ryddigere.</li>
+            <li> Font-size på sidene Treningsprogram og sprintteknikk ble endret fra 16pt til 12pt.</li>
             <li> Promovideoene dekker 70% av bredden til skjermen, istede for 80%.</li>
             <li> Ved pop-up-vinduene på Om oss-siden forblir portrettbildene 200px, istede for å øke til 500px.</li>
             <li> Spaltene på Sprintteknikk-siden har en bredde på 20%, i stedet for 300px.</li>
@@ -47,9 +42,24 @@
             <li> Hver kolonnene på Våre sponsorer-siden har en bredde på 35%, i stedet for 450px.</li>
             <li> Boksene som scrolles opp og ned på Treningsprogram-siden har en maks-bredde på 30%, i stedet for 300px, og en 
                 auto-innstilt høyde som matcher lengden på innholdet, i stedet for 600px.</li>
-            <li> Droppet strekene mellom sidene i navbaren.</li>
+            <li> Vi valgte å droppet strekene mellom de forskjellige sidene i navbaren. </li>
         </ul>
-
+        <b>Endringer javascript:</b>
+        <ul>
+            <li>Hadde i utgangspunktet tenkt å benytte javascript i dropdownmenyen under Treningsfilosofi i navbaren. 
+                Dette ble i stedet løst med vanlig css.
+            </li>
+            <li>Lagde et script headerAndFooter.js som brukes til å sette inn navbaren og footeren på hver enkelt side.</li>
+            <li>La til en ekstra effekt på hamburgermenyen med javascript der hamburgermeny-ikonet endres når man klikker på det.</li>
+        </ul>
+        <h2>Modularitet:</h2>
+        <p>For å tilfredstille kravet om modularitet i prosjektet har vi benyttet javascript og lagd en funksjon som setter inn navbaren og footeren på alle sidene, slik at vi slipper duplisert kode.
+           Løsningen fungerer greit i praksis, men gjør det litt tungvindt å gjøre endringer i ettertid. Vi har også valgt å ha flere stilark for å lage et tydelig skille mellom de forskjellige sidene.
+           Dette har også gjort det lettere som gruppe å jobbe, ettersom at vi alle har hatt vært vårt stilark å jobbe med. Vi ser derimot at det er flere elementer
+           slik som farger, fonter, font-størrelser o.l. som gjentas i alle stilarkene. Her kunne det vært en idé å samlet dette til et felles stilark for å unngå duplikater, men vi har 
+           valgt å ikke gjøre dette for å redusere mengden totale stilark.
+        </p>
+        <p>
 
     </main>
 </body>
