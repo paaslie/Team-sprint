@@ -167,6 +167,14 @@ a {
     display: none;
 }
 
+#ps {
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #033EA7;
+    font-size: 16pt;
+    font-family: "Eras Demi ITC";
+}
 
 @media only screen and (max-width: 900px) {
     .flex-container {
