@@ -22,18 +22,17 @@ function includeHeaderAndfooter() {
 
 includeHeaderAndfooter();   //kjører funksjonen 
 
-//var current = location.href;    skal kanskje brukes senere til å markere hvilken side man befinner seg på 
-
+//funksjon som sjekker setter riktig ikon på hambrugermenyen, med tre streker når menyen er lukket
+//og et kryss når menyen er åpen.
 function showHamburgerMenu(){
   let burgerMenu = document.getElementById("burgerMenu");
   let burgerIcon = document.getElementById("burgerIcon");
-  let standardMenu = document.getElementsByClassName("navbar");
 
   if (burgerMenu.style.display === "block") {
     burgerMenu.style.display = "none";
-    burgerIcon.src = "img/hamburgermeny.png"
+    burgerIcon.src = "img/hamburgermeny.png";
   } else {
     burgerMenu.style.display = "block";
-    burgerIcon.src = "img/hamburgermenykryss.png"
+    burgerIcon.src = "img/hamburgermenykryss.png";
   }
 }
