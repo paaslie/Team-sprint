@@ -1,5 +1,5 @@
 
-
+/* Youtube video posisjon */
 iframe {
     width: 70%;
     height: 600px;
@@ -16,6 +16,7 @@ iframe {
     margin-top: 20px;
 }
 
+/* Istagram feed posisjon */
 .instagram {
     font-family: 'Eras Demi ITC';
     src: url('../fonts/ErasDemiITC.ttf');
@@ -44,6 +45,7 @@ hr {
 
 }
 
+/* Sponsorlinje posisjoner */
 
 #topLine {
     border-top: 3px solid #033EA7;
@@ -54,14 +56,13 @@ hr {
     width: 100%;
 }
 
+
 .column {
     float: left;
     width: 25%;
     padding: 0px;
 }
 
-
-  /* Clear floats after image containers */
 .row::after {
     content: "";
     clear: both;
