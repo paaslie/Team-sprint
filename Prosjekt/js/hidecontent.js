@@ -91,6 +91,12 @@
 // }
 
 
+// Alt over er tidligere kode, klarte å endre til en lettere versjon nednunder
+
+// Ideen her er at hver av de fire funksjonenene viser hver sin container med 
+// øvelser, samt "hider" de tre andre, og gir den valgte øvelser-knappen en farge
+// Bruker index av elementene for å velge riktig, fordi jeg bruker queryselector 
+
 var knapp;
 
 var content;

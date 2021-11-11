@@ -120,7 +120,7 @@ h4 {
     margin: 0;
 }
 
-
+/* Legger til rette for brukervennlighet */
 @media screen and (max-width: 900px) {
     #sidebar {
         font-size: 12pt;
