@@ -79,6 +79,7 @@ li.dropdown {
 }
 
 
+/* når skjermen blir mindre enn 1200 px */
 @media only screen and (max-width: 1200px) {
 
     #burgerIcon {
@@ -130,6 +131,7 @@ li.dropdown {
 
 }
 
+/* For å fjerne hamburgermenyen når skjermen går tilbake til over 1200px igjen  */
 @media only screen and (min-width: 1201px) {
     #burgerMenu {
         display: none !important;
@@ -157,6 +159,7 @@ li.dropdown {
     color: white;
 }
 
+/* Når skjermen er mindre enn 700px */
 @media only screen and (max-width: 700px) {
     .footer-flex-container {
         flex-direction: column;
