@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }  
-  
+/* Radene med sponsorer */
 .column {
   float: left;
   margin-left: 10%;
@@ -12,6 +12,21 @@
 #row_1 {
   margin-top: 5%;
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Innhold sponsorer med posisjoner og styling */
+.row {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  color: #414141;
+    
+}
+
 
 h2 {
     border-bottom: 3px solid #033EA7;
@@ -37,18 +52,6 @@ h2 {
   margin-bottom: 24px;
 }
   
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;
-  color: #414141;
-    
-}
 
 
 @media screen and (max-width: 900px) {
